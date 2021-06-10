@@ -1,0 +1,18 @@
+<h1>if you would like to modify dream vacation, do so below: </h1>
+
+<form action="/dreamspots/<%= @lalaland.id %>" method="POST">
+    <input type="hidden" name="_method" value="patch">
+    <label for="name">Vacation Name: </label>
+    <input type="text" name="name">
+    <br>
+    <br>
+    <label for="country">Vacation Location: </label>
+    <input type="text" name="country">
+    <br>
+    <br>
+    <label for="season">Best Season for going: </label>
+    <input type="text" name="season">
+    <br>
+    <br>
+    <input type="submit" value="Edit">
+</form>

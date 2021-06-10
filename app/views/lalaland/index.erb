@@ -1,0 +1,10 @@
+<h1>Here is your list of dream vacation spots:</h1>
+ 
+<% @lalaland.each do |v| %>
+  <ol>
+        <li><%= v.name %> <%= v.country %> <%= v.season %> </li>
+  </ol>
+<% end %>
+
+
+
